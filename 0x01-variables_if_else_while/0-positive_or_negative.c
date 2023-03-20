@@ -4,9 +4,13 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-/*
- * main function - prints and describe if n is positive, negative or zero
+
+/**
+ * The main function of the program.
+ * 
+ *@return The exit code of the program.
  */
+
 int main(void)
 {
 	int n;
