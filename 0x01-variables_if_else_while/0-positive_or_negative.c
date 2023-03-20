@@ -4,13 +4,13 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-
 /**
- * The main function of the program.
- * 
- *@return The exit code of the program.
+ * main - Entry point
+ *
+ * Description: 'The function prints n  if it's positive, negative, or zero
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;
