@@ -20,7 +20,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-	printf("The digit of %i is", n);
+	printf("Last digit of %i is", n);
 	if (n % 10 > 5)
 	{
 		printf(" %i and is greater than 5\n", n % 10);
