@@ -7,26 +7,27 @@
  */
 void print_triangle(int size)
 {
-	int i = 1, j, k;
-
-	while (i <= size)
+	if (size <= 0)
 	{
-		k = size - i;
-
-		while (k > 0)
-		{
-			_putchar(' ');
-			k--;
-		}
-		j = 1;
-
-		while (j <= i)
-		{
-			_putchar('#');
-			j++;
-		}
 		_putchar('\n');
-		i++;
 	}
-	_putchar('\n');
+	else
+	{
+		int i, j;
+
+		for (i = 1; i <= size; i++)
+		{
+			for (j = i; j < size; j++)
+			{
+				_putchar(' ');
+			}
+
+			for (j = 1; j <= i; j++)
+			{
+				_putchar('#');
+			}
+
+			_putchar('\n');
+		}
+	}
 }
